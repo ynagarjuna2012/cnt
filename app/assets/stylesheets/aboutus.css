@@ -1,0 +1,53 @@
+#aboutuscover{height: 500px;
+		position: absolute;
+		top: 0;background:url('aboutus.jpg') top;
+		width: 100%;
+		}
+	/**This is used once so no need to use in all the css files */	
+.covercontainer{
+	height:530px;    
+}		
+.aboutcontainer{
+	height:800px;
+}
+#title1 {position: absolute;top: 550px;left: 0;right: 0;margin: auto;width: 1050px;text-align: center;font-size: 2em;font-weight: bold;font-family: "Candara"; color: #4E4E4E;}
+#page1 {position: absolute;top: 600px;width: 1200px;left: 0;right: 0;margin: auto;height: 700px;}
+#page7 {position: absolute;top: 3800px;height: 200px;width: 100%;}
+#twitter {height: 50px;width: 78px;position: absolute;left: 0;right: 0;margin: auto;top: 20px;}
+#tweet {position: absolute;top: 80px;left: 0;right: 0;margin: auto; width:200px;text-align: center;}
+.about {width:400px; height: 295px;float: left;position: relative;margin-top: 30px;}
+.about-img{width:300px; height: 220px;position: absolute;left: 0;right: 0;margin: auto;}
+.img-caption{position: absolute;top: 230px;left: 0;right: 0;margin: auto;text-align: center;font-size: 1.5em;font-family: "Candara";width: 300px;}
+@media screen and (min-width: 800px) and (max-width: 1200px)
+{   
+	#title1 {width: 800px;}
+	#page1 {width: 800px;height: 750px;}
+	.click-img{height: 400px;}
+	
+	#botlogo{top: 3700px;}
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px)
+{   
+    #title1 {width: 550px;top: 520px;}
+    #page1 {width: 400px;height: 1350px;}
+    .aboutcontainer{ height:2150px}
+   
+	.click-img{height: 300px;}
+	
+	#botlogo{top: 4225px;}
+}
+@media screen and (min-width: 300px) and (max-width: 599px)
+{   
+	#cover {height: 300px;}
+    #title1 {width: 300px;top: 320px;}
+    .about {width: 300px;border-bottom: 2px solid black;margin-bottom: 10px;height: 320px;}
+    #page1 {width: 300px;height: 1350px;top: 450px;}
+    .aboutcontainer{ height:2300px}
+    
+	.click-img{height: 300px;position: absolute;left: 0;right: 0;margin: auto;}
+	
+	#botlogo{top: 4700px;}
+	
+
+}

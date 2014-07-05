@@ -1,0 +1,6 @@
+#contactuscover{height: 500px;
+		position: absolute;
+		top: 0;background:url('contactus.jpg') top;
+		width: 100%;
+		}
+	/**This is used once so no need to use in all the css files */	

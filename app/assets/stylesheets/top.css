@@ -1,0 +1,11 @@
+#top-panel {position: absolute;top: 0;z-index: 100;background-color: black;width: 100%;opacity: 0.6;height: 60px;}
+#panel-logo{height: 60px;position: absolute;left: 100px;top: 0;z-index: 200;}
+#top-li {position: absolute;top: 25px;right: 100px;z-index: 300;}
+#top-li li {float: left;color: white;list-style-type: none;margin-right: 20px;}
+#top-li li a {color: white;}
+#top-li li a:hover {text-decoration: none;}
+@media screen and (min-width: 300px) and (max-width: 599px)
+{ 
+	#top-li {right: 10px;}
+	#top-li li {margin-right: 10px;}
+}

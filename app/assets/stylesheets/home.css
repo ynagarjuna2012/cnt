@@ -1,0 +1,114 @@
+body {margin: 0;
+      background-color: #F0F0F0;
+      font-family:"Open Sans";
+            }
+#top {padding: 0;
+	border: none;
+	height: 6px;
+    margin: 0;
+    background-color: white;
+    border-bottom: 2px solid #2b2727}
+
+a:hover {color:#6D6D67;text-decoration: none;}
+
+.logo div {padding:0;} 
+#logo {border-bottom-right-radius: 5px 7px;
+       border-bottom-left-radius: 5px 7px;
+       z-index: 1000;
+       border: 2px solid #2b2727;
+       border-top: none;
+       position: relative;top: -2px;/** to place logo over the top white line border**/}
+#logo_anchor {padding-left: 80px;}  
+#logo:hover {opacity: 0.95;}  
+.page1 {  background-color: #999797;height:677px; display: block;background: linear-gradient(rgba(0,0,0,0.3),rgba(99,0,0,0.5)), url('welcome.jpg') center scroll;background-size: cover; }
+h2 { position: absolute; top: 75px;
+     color: white;
+     text-align: center;
+     font-size: 3.8em;
+     padding: 0 !important;
+     text-shadow: -2px -2px 5px black;
+     text-shadow: 2px 2px 5px grey;
+     margin: 0 185px;
+     line-height: 60px;
+     font-family: "Open Sans"}
+#nav-top {position: absolute;top: 15px; right: 150px;} /**navigation bar on top**/
+#nav-top li a{font-size: 1em; color: black; font-weight: bold;padding: 5px; text-align: center; padding-bottom: 2px;padding-top: 2px;text-decoration: none; }
+.navbar-header {border: none !important;}
+.navbar .navbar-header .navbar-toggle.btn:hover {background-color: #3276B1;border: none;} /**higher specificity given to over-ride bootstrap style rules**/
+.navbar .navbar-header .navbar-toggle.btn:focus {background-color: #3276B1;border: none;}
+.list-inline{float: none;}
+form {position: absolute;top: 375px;left: 0;right: 0;margin: auto; width: 500px;}
+.navbar {background-color: #2b2727; margin-bottom: 0;border: none;}
+.navbar .navbar-header .icon-bar{background-color: white;}
+#about-container {color:#706E6E;width: 100%;height: 550px;background-color: white;}
+#about {width: 1200px;position: absolute;left: 0;right: 0;margin: auto;height: 450px;margin-top: 20px;}
+.about-box {width: 300px;margin: 45px;float: left;position: relative;}
+.img-caption {clear: both;font-size: 1.4em;font-family: "utsaah";font-weight:700;position: absolute;left: 0;right: 0;margin: auto;width: 300px;top: 250px;text-align: center;}
+
+@media screen and (min-width: 100px) and (max-width: 620px)
+ {
+ 	#logo_anchor { position: absolute;top: 30px;left: 0;right: 0;padding: 0;margin: auto;}
+ 	#logo {position: absolute;left: 0;right: 0;padding: 0;margin: auto;border-radius: 5px 7px; border-top: 2px solid black;}
+  h2 {font-size: 3em;
+      position: absolute; top: 145px;
+      margin: 0 20px;
+      line-height: 40px;}
+      #nav-top{visibility: hidden;}
+  form {width: 280px;} 
+  #about-container {width: 100%;height: 1050px;background-color: white;}
+#about {width: 300px;position: absolute;left: 0;right: 0;margin: auto;height: 1050px;margin-top: 20px;}
+.about-box {width: 280px;margin: 10px;float: left;position: relative;margin-bottom: 50px;}
+.about-img {width: 240px;height: 240px;margin: 20px;}
+.img-caption {clear: both;font-size: 1.7em;font-family: "utsaah";position: absolute;left: 0;right: 0;margin: auto;width: 280px;top: 250px;text-align: center;}
+#img1 {margin-bottom: 10px;}
+  
+ }
+@media screen and (min-width: 621px) and (max-width: 970px)
+{
+    #logo_anchor { position: absolute;left: 5px; padding: 0;}
+     h2 {font-size: 3.5em;
+      position: absolute; top: 175px;
+      margin: 0 20px;
+      line-height: 40px;}
+    #nav-top {position: absolute;top: 15px; right: 15px;}
+    #about-container {width: 100%;height: 800px;background-color: white;}
+#about {width: 600px;position: absolute;left: 0;right: 0;margin: auto;height: 800px;margin-top: 20px;}
+.about-box {width: 280px;margin:10px;float: left;position: relative;margin-bottom: 100px;margin-top: 10px;}
+.about-img {width: 270px;height: 250px;margin: 5px;}
+.img-caption {clear: both;font-size: 1.7em;font-family: "utsaah";position: absolute;left: 0;right: 0;margin: auto;width: 270px;top: 280px;text-align: center;}
+#img3 {margin-left: 160px;margin-right: 160px;}
+    
+}
+
+@media screen and (min-width: 971px) and (max-width: 1200px)
+{
+  #about-container {width: 100%;height: 450px;background-color: white;}
+  #about {width: 900px;position: absolute;left: 0;right: 0;margin: auto;height: 450px;margin-top: 20px;}
+.about-box {width: 280px;margin:10px;float: left;position: relative;margin-bottom: 100px;margin-top: 10px;}
+.about-img {width: 270px;height: 250px;margin: 5px;}
+.img-caption {clear: both;font-size: 1.7em;font-family: "utsaah";position: absolute;left: 0;right: 0;margin: auto;width: 270px;top: 280px;text-align: center;}
+
+}
+@media screen and (min-width: 420px) and (max-width: 620px)
+{
+  h2 {position: absolute;top: 175px;}
+}
+@media screen and (min-width: 100px) and (max-width: 375px)
+{
+  #page2 {height: 550px;}
+  .list-inline li {text-align: left; margin-right: 70px; float: left;}
+}
+@media screen and (min-width: 100px) and (max-width: 767px)
+{
+.list-inline {padding-top: 5px !important; }
+.list-inline li {padding-top: 3px;padding-bottom: 2px;}
+}
+@media screen and (min-width: 376px) and (max-width: 500px)
+{
+  .list-inline li{width: 300px;text-align: left; }
+}
+@media screen and (min-width: 100px) and (max-width: 970px)
+{
+  
+  #signup{margin-top: 0; line-height: 45px;}
+}#signup{text-align: center;font-size: 3.5em;margin-top: 30px;font-weight: 10; font-family:"utsaah";}
