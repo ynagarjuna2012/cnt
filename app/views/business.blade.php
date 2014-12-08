@@ -1,6 +1,9 @@
 @extends('master')
 
 @section('title','List your Travel Business on clickntoor')
-<div id="cover">
+@section('content')
+<div id="businesscover">
 
 </div>
+@stop
+

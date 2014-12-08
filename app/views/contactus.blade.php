@@ -1,6 +1,7 @@
 @extends('master')
 
 @section('title','contact Us')
+@section('content')
 <div class="covercontainer">
 <div id="contactuscover">
 

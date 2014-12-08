@@ -3,4 +3,5 @@
 		top: 0;background:url('partners.jpg') top;
 		width: 100%;
 		}
+#pcover{height:530;background-color: white;}		
 /**This is used once so no need to use in all the css files */

@@ -1,0 +1,6 @@
+#businesscover{
+	height: 500px;
+		position: absolute;
+		top: 0;background:url('aboutus.jpg') top;
+		width: 100%;
+}

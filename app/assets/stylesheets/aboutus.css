@@ -4,9 +4,7 @@
 		width: 100%;
 		}
 	/**This is used once so no need to use in all the css files */	
-.covercontainer{
-	height:530px;    
-}		
+		
 .aboutcontainer{
 	height:800px;
 }
